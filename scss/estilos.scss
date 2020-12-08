@@ -84,8 +84,11 @@ $fuentePrincipal: 'Quicksand', sans-serif;
 	margin-left: 45px;
 }
 
-.footer{
-	 margin-top: 380px;
+.margenInferior{
+	margin-top: 100px;
+	background-color: $colorFondo;
+	width: 100%;	
+	height: 100%;
 }
 
 /*  TIENDA DE PLANTAS DE INTERIOR	*/
