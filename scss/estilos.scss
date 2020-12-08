@@ -1,0 +1,233 @@
+
+$colorFondo: #e9ecef;
+$fuentePrincipal: 'Quicksand', sans-serif;
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+} 
+
+/* PROPIEDADES DEL INDEX */
+
+.margenSuperior{
+	background-color: $colorFondo;
+	margin-top: 0px;
+	width: 100%;	
+	height: 25px;
+}
+ 
+.d-flex{
+	align-items: center;
+	margin-right: 0px;
+}
+
+#menu ul{
+	margin-bottom: 0rem;
+
+		li {
+			display: inline;
+	
+				a{
+					font-family: $fuentePrincipal;
+					font-size: 20px;
+					text-decoration: none;
+					padding: 10px;
+					color: rgb(51, 21, 49);	
+
+					:hover { /* lo que hace cuando te paras arriba del cursor*/
+						animation-duration: 2s;
+						animation-name: pintar;	
+						background-color: #d3ffcf;/* REVISARR */
+						border-radius: 10px;
+						}			
+				}
+	     	}
+		}
+@keyframes pintar{
+	0% {background-color: white;}
+	100%{background-color: #d3ffcf;}
+}
+
+@media screen and (max-width: 768px) {
+	#menu li a{
+	  display: block;
+	  width: 100%;
+	  font-size: 20px;
+	text-align: right;	
+			}
+}
+		
+@media screen and (max-width: 550px) {
+	#menu li a{
+		display: block;
+		width: 100%;
+		font-size: 15px;
+			  }
+}
+
+.textoOfertas{
+	text-align: center;
+	font-family: $fuentePrincipal;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+.textoTachado{
+	margin-left: 23px;
+	text-decoration: line-through;
+}
+
+.textoTachado2{
+	margin-left: 45px;
+}
+
+.footer{
+	 margin-top: 380px;
+}
+
+/*  TIENDA DE PLANTAS DE INTERIOR	*/
+
+
+#galeriaInteriores {
+	.row{
+		margin-left: 40px;
+	}
+	#img{
+		width: 90%;
+	}
+	.col-lg-4{
+		padding:40px;
+	}
+}
+
+#galeriaCactus {
+	.row{
+		margin-left: 40px;
+	}
+	#img{
+		width: 90%;
+	}
+	.col-lg-4{
+		padding: 40px;
+	}
+}
+
+.card-title{
+	margin-left: 26px;
+}
+
+.imagenTarjeta{
+	margin-left: 20px;
+}
+
+.pruebaPrecio{
+	text-align: center;
+	color: #ff6473;
+	font-family: $fuentePrincipal;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.pruebaBoton{
+    
+	margin-left: 110px;
+	background-color: white;
+	color: blue;
+	border-color: blue;
+  }
+
+  .pruebaBoton:hover{
+    color:white;
+    background-color: blue;
+  }
+
+.card{
+	border: 0px;
+}
+
+/* QUIENES SOMOS */
+.tituloQuienes{
+	color: $colorFondo;
+	font-family: $fuentePrincipal;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-left: 60px;
+	animation-duration: 2s;
+	animation-name: tituloQuienes;
+	width: 300px;
+}
+
+@keyframes tituloQuienes{
+	0% {margin-left: 2000px;}
+	100%{margin-left: 60px;}
+}
+
+#textoQuienesSomos{
+	font-size: 24px;
+	margin-top: 25px;
+	margin-left: 0px;
+	font-family: $fuentePrincipal;	
+	animation-duration: 2s;
+	animation-name: textoQuienes;
+	width: 500px;
+	height: 500px;
+}
+
+@keyframes textoQuienes{
+	0% {margin-top: 2000px;}
+	100%{margin-top: 25px;}
+}
+
+/* CONTACTO */
+
+.textoContactoDos{
+	font-size: 170%;
+	font-family: $fuentePrincipal;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* MEDIA QUERY PARA ACHICAR LA LETRA DE TEXTOCONTACTODOS */
+@media screen and (max-width: 500px) {
+	.textoContactoDos{
+	 font-size: 120%;	
+			}
+}
+
+@mixin estiloContacto{
+	background-color:$colorFondo;
+	width: 80%;
+	
+}
+
+.form-control{
+	@include estiloContacto;
+
+}
+
+.form-group{
+	font-family: $fuentePrincipal;
+}
+
+.mover{
+	text-align: center;
+}
+
+.pruebaBotonDos{
+     
+	background-color: white;
+	color: blue;
+	border-color: blue;
+  }
+
+  .pruebaBotonDos:hover{
+    color:white;
+    background-color: blue;
+  }
+
+
+
+
