@@ -76,12 +76,33 @@ $fuentePrincipal: 'Quicksand', sans-serif;
 }
 
 .textoTachado{
-	margin-left: 23px;
+	
 	text-decoration: line-through;
+	text-align: center;
+	color: #ff6473;
+	font-family: $fuentePrincipal;
+	font-weight: bolder;
+	font-size: 30px;
 }
 
 .textoTachado2{
-	margin-left: 45px;
+	
+	text-align: center;
+	color: #ff6473;
+	font-family: $fuentePrincipal;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.botonPromo{
+	text-align: left;
+	background-color: white;
+	color: blue;
+	border-color: blue;
+}
+
+.centrarBoton{
+	text-align: center;
 }
 
 .margenInferior{
@@ -231,6 +252,7 @@ $fuentePrincipal: 'Quicksand', sans-serif;
     background-color: blue;
   }
 
+  
 
 
 

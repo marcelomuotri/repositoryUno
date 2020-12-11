@@ -57,11 +57,28 @@
   margin-bottom: 25px; }
 
 .textoTachado {
-  margin-left: 23px;
-  text-decoration: line-through; }
+  text-decoration: line-through;
+  text-align: center;
+  color: #ff6473;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 30px; }
 
 .textoTachado2 {
-  margin-left: 45px; }
+  text-align: center;
+  color: #ff6473;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 30px; }
+
+.botonPromo {
+  text-align: left;
+  background-color: white;
+  color: blue;
+  border-color: blue; }
+
+.centrarBoton {
+  text-align: center; }
 
 .margenInferior {
   margin-top: 100px;
