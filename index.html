@@ -17,41 +17,37 @@
 	</head>
 	<body>
 		<header>
-			<section>
-					
-					<div class="margenSuperior" >
-					</div>
-					<div class="d-flex">	
+				<div class="margenSuperior" >
+				</div>
+				<div class="d-flex">	
 							
-						<div class="col-md-1 col-sm-3">
-							<img src="imagenes/logotipo.jpg" alt="Este es el logo de Mr jungle" width="80" height="80" />
-						</div>
-						<div class="col-md-4">
-						</div>
-						<div class="col-md-7 col-sm-9">
-							<nav id = "menu">
-								<ul>
-									<li>
-										<a href="index.html"> Inicio </a>		
-									</li>
-									<li>
-										<a href="cactus-y-suculentas.html"> Cactus y suculentas</a>
-									</li>
-									<li>
-										<a href="plantas-de-interiores.html"> Plantas de interior</a>
-									</li>
-									<li>
-										<a href="quienessomos.html"> Quienes Somos</a>
-									</li>
-									<li>
-										<a href="contacto.html"> Contacto</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
+					<div class="col-md-1 col-sm-3">
+						<img src="imagenes/logotipo.jpg" alt="Este es el logo de Mr jungle" width="80" height="80" />
 					</div>
-
-				</section>		
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-7 col-sm-9">
+						<nav id = "menu">
+							<ul>
+								<li>
+									<a href="index.html"> Inicio </a>		
+								</li>
+								<li>
+									<a href="cactus-y-suculentas.html"> Cactus y suculentas</a>
+								</li>
+								<li>
+									<a href="plantas-de-interiores.html"> Plantas de interior</a>
+								</li>
+								<li>
+									<a href="quienessomos.html"> Quienes Somos</a>
+								</li>
+								<li>
+									<a href="contacto.html"> Contacto</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>	
 		</header>			
 		<main>	
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -90,14 +86,14 @@
 					<h1 class="textoOfertas">OFERTAS DE LA SEMANA</h1>
 					
 					<div class="row"><!-- tengo un grid de 1,4 y 7. dentro de este ultimo hay otro -->
-						<div class="col-md-1"></div>
-						<div class="col-md-4">
-							<img  src="imagenes/50descuento.jpg" alt="foto descuento" width="90%" />
+						<div class="col-md-1 col-sm-1"></div>
+						<div class="col-md-4 ">
+							<img  src="imagenes/50descuento.jpg" class="img-fluid imagenResponsive" alt="foto descuento"  />
 						</div>
-						<div class="col-md-7"><!-- grid adentro del otro -->
+						<div class="col-md-7 "><!-- grid adentro del otro -->
 							<div class="row">
 								<div class="col-md-4">	
-									<img  src="listas-de-precios/maceta 1-1500 pesos.jpg" alt="maceta numero 1" width="95%" />
+									<img  src="listas-de-precios/maceta 1-1500 pesos.jpg" class="img-fluid imagenResponsive" alt="maceta numero 1"  />
 									<div class="container">
 										<h1 class="textoTachado">$ 1500</h1>
 										<h2 class="textoTachado2">  $750</h2>
@@ -108,8 +104,8 @@
 								</div>
 								
 								<div class="col-md-4">
-									<img  src="listas-de-precios/maceta 2-1500 pesos.jpg" alt="maceta numero 1" 
-									width="95%" />
+									<img  src="listas-de-precios/maceta 2-1500 pesos.jpg" class="img-fluid imagenResponsive" alt="maceta numero 1" 
+									 />
 									<div class="container">
 										<h1 class="textoTachado">$ 1500</h1>
 										<h2 class="textoTachado2">  $750</h2>
@@ -119,8 +115,8 @@
 									</div>
 								</div>
 								<div class="col-md-4">
-									<img  src="listas-de-precios/maceta 3-500 pesos.jpg" alt="maceta numero 1" 
-									width="95%" />
+									<img  src="listas-de-precios/maceta 3-500 pesos.jpg" class="img-fluid imagenResponsive" alt="maceta numero 1" 
+									 />
 									<div class="container">
 										<h1 class="textoTachado">$ 1500</h1>
 										<h2 class="textoTachado2">  $750</h2>
@@ -139,14 +135,46 @@
 	
 		<footer>
 			<div class="margenInferior">
-				<p >Envios a todo el pais</p>
-				<p >todos los metodos de pago</p>
-				<p >contactanos</p>
-				<img  src="imagenes/instagram.png" alt="imagen instagram"
-				width="5%" >
-				
-				
+				<div class="row">
+					
+					<div class="col-lg-4 col-sm-4 d-flex justify-content-center"><!-- porque no sube en small ? -->
+						<div class="row">
+							<div class="col-lg-12 d-flex justify-content-center">		
+								<p class="letraMargen" >Envios a todo el pais</p>
+							</div>
+							<div class="col-lg-12 d-flex justify-content-center">
+								<img  src="imagenes/truck2.png" class="separacion" alt="imagen camion"
+									width="17%" >
+							</div>		
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-4 text-center"><!-- porque no sube en small ? -->
+						<p class="letraMargenDos">Todos los metodos de pago</p>
+						<img  src="imagenes/formas-pago.png" class="separacion" alt="imagen metodos de pago"
+								width="17%" >
+					</div>
+					<div class="col-lg-4 col-sm-4 d-flex justify-content-center">
+						<div class="row">
+							<div class="col-lg-12 d-flex justify-content-center">	
+								<p class="letraMargen">Redes Sociales</p>
+							</div>
+							<div class="col-lg-12 d-flex justify-content-center">
+								<img  src="imagenes/instagram.png" class="separacion" alt="imagen instagram"
+								width="10%" >
+								<img  src="imagenes/facebook.png" class="separacion"  alt="imagen facebook"
+								width="10%" >
+								<img  src="imagenes/whatsapp.png" class="separacion" alt="imagen whatsapp"
+								width="10%" >
+								
+							</div>
+						</div>		
+					</div>
+				</div>	
+				<div class="footer-copyright text-center py-3">© 2020 Copyright:
+					<a href="https://mdbootstrap.com/"> Marcelo Muotri</a>
+				  </div>
 			</div>
+
 				
 		</footer>   
 

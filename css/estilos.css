@@ -86,6 +86,27 @@
   width: 100%;
   height: 100%; }
 
+.letraMargen {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold; }
+
+.letraMargenDos {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin-top: 13px; }
+
+.copyright {
+  text-align: center; }
+
+.separacion {
+  margin-right: 7px;
+  margin-left: 7px; }
+
+@media screen and (max-width: 768px) {
+  .imagenResponsive {
+    max-width: 70%;
+    margin-left: 60px; } }
+
 /*  TIENDA DE PLANTAS DE INTERIOR	*/
 #galeriaInteriores .row {
   margin-left: 40px; }
@@ -155,8 +176,8 @@
   font-family: "Quicksand", sans-serif;
   animation-duration: 2s;
   animation-name: textoQuienes;
-  width: 500px;
-  height: 500px; }
+  max-width: 100%;
+  height: 90%; }
 
 @keyframes textoQuienes {
   0% {
