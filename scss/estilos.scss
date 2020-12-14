@@ -18,12 +18,13 @@ $fuentePrincipal: 'Quicksand', sans-serif;
 	height: 25px;
 }
  
-.d-flex{
-	align-items: center;
-	margin-right: 0px;
-}
 
-#menu ul{
+#menu {
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+	ul{
 	margin-bottom: 0rem;
 
 		li {
@@ -31,52 +32,34 @@ $fuentePrincipal: 'Quicksand', sans-serif;
 	
 				a{
 					font-family: $fuentePrincipal;
-					font-size: 20px;
+					font-size: 23px;
 					text-decoration: none;
 					padding: 10px;
-					color: rgb(51, 21, 49);	
-
-					:hover { /* lo que hace cuando te paras arriba del cursor*/
-						animation-duration: 2s;
-						animation-name: pintar;	
-						background-color: #d3ffcf;/* REVISARR */
-						border-radius: 10px;
-						}			
+					color: rgb(0, 0, 0);	
 				}
-	     	}
+			 }
+			}
 		}
+
+#menu ul a {
+	:hover { /* lo que hace cuando te paras arriba del cursor*/
+		animation-duration: 2s;
+		animation-name: pintar;	
+		background-color: #d3ffcf;/* REVISARR */
+		border-radius: 10px;
+		}			
+}
+
 @keyframes pintar{
 	0% {background-color: white;}
 	100%{background-color: #d3ffcf;}
 }
-
-@media screen and (max-width: 768px) {
-	#menu li a{
-	  display: block;
-	  width: 100%;
-	  font-size: 20px;
-	text-align: right;	
-			}
-}
-		
-@media screen and (max-width: 550px) {
-	#menu li a{
-		display: block;
-		width: 100%;
-		font-size: 15px;
-			  }
-}
-
-/* .imagenesPortada{
-	max-height: 50%;
-} */
 
 .textoOfertas{
 	text-align: center;
 	font-family: $fuentePrincipal;
 	margin-top: 25px;
 	margin-bottom: 25px;
-
 }
 
 .textoTachado{
