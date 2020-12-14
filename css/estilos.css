@@ -50,6 +50,9 @@
     width: 100%;
     font-size: 15px; } }
 
+/* .imagenesPortada{
+	max-height: 50%;
+} */
 .textoOfertas {
   text-align: center;
   font-family: "Quicksand", sans-serif;
