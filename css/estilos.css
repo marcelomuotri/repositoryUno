@@ -93,33 +93,24 @@
 
 @media screen and (max-width: 768px) {
   .imagenResponsive {
-    max-width: 70%;
-    margin-left: 60px; } }
+    max-width: 50%;
+    margin-left: 100px;
+    margin-top: 30px; } }
+
+@media screen and (max-width: 768px) {
+  .textoResponsive {
+    max-width: 40%;
+    text-align: center; } }
 
 /*  TIENDA DE PLANTAS DE INTERIOR	*/
-#galeriaInteriores .row {
-  margin-left: 40px; }
+.imagenTarjetaCac {
+  width: 85%; }
 
-#galeriaInteriores #img {
-  width: 90%; }
+.imagenTarjetaInt {
+  width: 60%; }
 
-#galeriaInteriores .col-lg-4 {
-  padding: 40px; }
-
-#galeriaCactus .row {
-  margin-left: 40px; }
-
-#galeriaCactus #img {
-  width: 90%; }
-
-#galeriaCactus .col-lg-4 {
-  padding: 40px; }
-
-.card-title {
-  margin-left: 26px; }
-
-.imagenTarjeta {
-  margin-left: 20px; }
+.centrarTexto {
+  text-align: center; }
 
 .pruebaPrecio {
   text-align: center;
@@ -129,7 +120,7 @@
   font-size: 20px; }
 
 .pruebaBoton {
-  margin-left: 110px;
+  text-align: center;
   background-color: white;
   color: blue;
   border-color: blue; }
@@ -159,7 +150,7 @@
     margin-left: 60px; } }
 
 #textoQuienesSomos {
-  font-size: 24px;
+  font-size: 130%;
   margin-top: 25px;
   margin-left: 0px;
   font-family: "Quicksand", sans-serif;
@@ -176,7 +167,7 @@
 
 /* CONTACTO */
 .textoContactoDos {
-  font-size: 170%;
+  font-size: 150%;
   font-family: "Quicksand", sans-serif;
   text-align: center;
   margin-top: 20px; }
@@ -184,16 +175,15 @@
 /* MEDIA QUERY PARA ACHICAR LA LETRA DE TEXTOCONTACTODOS */
 @media screen and (max-width: 500px) {
   .textoContactoDos {
-    font-size: 120%; } }
+    font-size: 100%; } }
 
 .form-control {
   background-color: #e9ecef;
-  width: 80%; }
+  text-align: center; }
 
 .form-group {
-  font-family: "Quicksand", sans-serif; }
-
-.mover {
+  font-family: "Quicksand", sans-serif;
+  width: 50%;
   text-align: center; }
 
 .pruebaBotonDos {
